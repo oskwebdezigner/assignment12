@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Fira Sans';
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width:100%;
     max-width: 1366px;
@@ -284,4 +287,50 @@ footer{
 }
 .footer-social a i{
     color:#718096;
+}
+.form-section{
+    margin:100px 0;
+}
+.form-section form{
+    max-width:50%;
+    box-shadow:1px 1px 10px 3px #e3e3e3;
+    padding: 25px 25px;
+    margin: auto;
+    border-radius:10px;
+}
+.form-section form h4{
+    font-size:22px;
+    color:#718096;
+    font-weight:bold;
+}
+.single-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+}
+.single-field label{
+    font-size:16px;
+    color: #a0aec0;
+
+}
+.single-field label sup{
+    color:red
+}
+.single-field input, .single-field textarea{
+    outline: 0 none;
+    border:1px solid #e2e8f0;
+    border-radius:10px;
+    height:40px;
+    margin-top:10px;
+}
+.single-field textarea{
+    resize: none;
+    height:100px;
+}
+.single-field button{
+    color:#fff;
+    background-color:#006838;
+    border-radius:5px;
+    height:40px;
+    border:2px solid #006838;
 }
